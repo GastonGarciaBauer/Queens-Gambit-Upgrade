@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homenaje visual a The Queen's Gambit: personajes, capítulos, galería y más. Diseño editorial inspirado en la miniserie.">
+    <meta name="theme-color" content="#060608">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="images/favicon.jpg" type="image/jpg">
+    <title>The Queen's Gambit — Inicio</title>
+</head>
+<body class="page-home">
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="index.html" class="site-brand" aria-label="Inicio — The Queen's Gambit">
+                <img src="images/chess-3413420_1280.png" alt="" class="site-brand__mark" width="46" height="46">
+                <span class="site-brand__text">
+                    <span class="site-brand__title">The Queen's Gambit</span>
+                    <span class="site-brand__sub">Un homenaje visual</span>
+                </span>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="visually-hidden" aria-hidden="true">
+            <label for="menu-toggle" class="menu-toggle" aria-label="Abrir o cerrar menú">
+                <span class="menu-toggle__bars" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </span>
+            </label>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="capitulos.html">Capítulos</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="resenas.html">Reseñas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal">
+        <section class="hero">
+            <div class="hero__grid">
+                <div class="hero__content" data-reveal>
+                    <p class="page-eyebrow">Miniserie · Netflix</p>
+                    <h1 class="hero__title">Gambito de dama.<span>Un tablero, un destino.</span></h1>
+                    <p class="hero__lead">Fan site editorial sobre la historia de <strong>Beth Harmon</strong>: niña prodigio, obsesión y brillantez sobre el ajedrez. Todo el universo de la serie, con un diseño que la trata como obra de época.</p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="personajes.html">Explorar personajes</a>
+                        <a class="btn btn--ghost" href="galeria.html">Ver galería</a>
+                    </div>
+                    <div class="hero__stats" role="presentation">
+                        <div class="stat">
+                            <span class="stat__value">7</span>
+                            <span class="stat__label">Capítulos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value">'67</span>
+                            <span class="stat__label">Año clave</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value">∞</span>
+                            <span class="stat__label">Jugadas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual" data-reveal>
+                    <div class="hero__orbit" aria-hidden="true"></div>
+                    <figure class="hero__frame">
+                        <img src="images/bg-img.jpg" alt="Composición de ajedrez y atmósfera de la serie" width="800" height="600" fetchpriority="high">
+                        <figcaption class="hero__badge">
+                            <span><strong>Estética años 60</strong> · Verde póker, dorado envejecido y silencios de sala de torneo</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <nav class="social-row" aria-label="Redes sociales">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter / X"></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="images/instagram-logo.png" alt="Instagram"></a>
+            </nav>
+            <p class="site-footer__legal">© Todos los derechos reservados. Esta página y su contenido son propiedad intelectual de Gastón García.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
